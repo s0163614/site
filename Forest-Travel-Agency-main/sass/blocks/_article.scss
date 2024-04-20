@@ -1,0 +1,93 @@
+.row-article-page {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-page-nav {
+  width: 270px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.article-page-nav-title {
+  margin: 0 0 34px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #31405b;
+}
+
+.article-page-nav-list {
+  font-size: 20px;
+  border-top: 1px solid #d6d9d8;
+}
+
+.article-page-nav-list li {
+  border-bottom: 1px solid #d6d9d8;
+}
+
+.article-page-nav-list a {
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  color: #138ece;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+.article-page-nav-list a.active {
+  font-weight: 700;
+  color: #e04e4e;
+}
+
+.article-page-nav-list a.active:hover {
+  color: #b13232;
+}
+
+.article-page-nav-list a:hover {
+  text-decoration: underline;
+  color: #0c5c88;
+}
+
+.article-page-article {
+  width: 770px;
+  font-size: 20px;
+  color: #31405b;
+}
+
+.article-page-article h2,
+.article-page-article h3,
+.article-page-article h4 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.article-page-article h1 {
+  margin: 0 0 40px;
+  margin-top: -10px;
+  font-size: 54px;
+}
+
+.article-page-article h2 {
+  font-size: 32px;
+}
+
+.article-page-article h3 {
+  font-size: 26px;
+}
+.article-page-article h4 {
+  font-size: 22px;
+}
+.article-page-article p {
+  margin: 0 0 15px;
+  line-height: 1.6;
+}
+
+.article-page-article img {
+  margin: 40px 0 40px;
+}
+
+.article-page-article > *:last-child {
+  margin-bottom: 0;
+}

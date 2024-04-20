@@ -1,0 +1,244 @@
+@media (max-width: 599px) {
+  .inner-page .container {
+    width: 100%px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .header-title {
+    font-size: 32px;
+    margin: 10px 0 10px;
+  }
+
+  .header-content p {
+    font-size: 18px;
+  }
+
+  /* Main */
+  .main {
+    padding: 40px 0;
+  }
+
+  .main-header {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  .inner-page-tours-header .main-header {
+    font-size: 28px;
+  }
+
+  .inner-page-tours-header {
+    margin: 0 0 30px;
+  }
+
+  .main .container {
+    width: 100%;
+  }
+
+  .main-row {
+    flex-direction: column-reverse;
+    margin: 0 0 40px 0;
+  }
+
+  .main-row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .main-img {
+    width: auto;
+    height: 150px;
+    margin: 0 0 20px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+  .card-title-wrapper {
+    height: 50px;
+    padding: 0 15px;
+  }
+
+  .card {
+    margin: 0 0 20px;
+  }
+
+  .article-page-article {
+    margin: 0 0 25px;
+  }
+
+  .article-page-article h1 {
+    font-size: 28px;
+    margin: -5px 0 10px;
+  }
+
+  .article-page-article h2 {
+    margin: 0px 0 15px;
+  }
+  .article-page-article h4 {
+    margin: 20px 0 15px;
+  }
+
+  .article-page-article h2,
+  .article-page-article h3 {
+    line-height: 1;
+  }
+
+  .article-page-article p {
+    line-height: 1.62;
+  }
+
+  .article-page-nav-title {
+    margin: 0 0 15px;
+    font-size: 22px;
+  }
+
+  .article-page-nav-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .article-page-nav-list a {
+    padding: 7px 0 7px;
+  }
+
+  .inner-page.tracking {
+    padding: 20px 0 40px;
+  }
+
+  .contacts-header .main-header {
+    font-size: 28px;
+    line-height: 1;
+  }
+  .contact-block-body {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .contact-block-title {
+    font-size: 20px;
+    margin: 0 0 18px;
+  }
+
+  .contact-list-icon {
+    position: relative;
+    padding-left: 34px;
+  }
+
+  .contact-block:not(:last-child) {
+    margin: 0 0 28px;
+  }
+
+  .contact-list li:not(:last-child) {
+    margin: 0 0 20px;
+  }
+
+  .contact-list li:last-child {
+    margin: 0;
+  }
+
+  .contact-block:last-child .contact-block-body {
+    height: 100%;
+  }
+
+  .contact-info {
+    margin: 0 0 30px;
+  }
+
+  .form-title {
+    font-size: 24px;
+  }
+
+  .form-group-row {
+    row-gap: 10px;
+    flex-direction: column;
+  }
+
+  .radio-row {
+    margin: 0 0 10px;
+  }
+
+  .radio-row:not(:last-child) {
+    margin: 0 0 11px;
+  }
+
+  .checkbox-row:not(:last-child) {
+    margin: 0 0 22px;
+  }
+
+  .form-group:last-of-type {
+    margin: 0 0 20px;
+  }
+
+  .form-group:nth-child(3) {
+    margin: 0 0 21px;
+  }
+
+  .form {
+    padding: 20px 15px 30px;
+  }
+
+  .form-group {
+    margin: 0 0 19px;
+    font-size: 16px;
+  }
+
+  .form-group-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+
+  .input {
+    padding: 0 14px;
+  }
+
+  .button.contacts {
+    padding: 0px 35px;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+  }
+
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin: 0;
+  }
+
+  .footer-widget {
+    margin: 0 0 38px;
+    width: 100%;
+  }
+
+  .footer-widgets-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .footer-widget-services {
+    display: block;
+  }
+
+  .footer-widget-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    margin: 0 0 10px;
+  }
+
+  .footer-widget-list {
+    font-size: 16px;
+  }
+
+  .footer-widget-list li {
+    margin: 0 0 10px 0;
+  }
+}

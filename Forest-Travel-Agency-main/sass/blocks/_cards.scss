@@ -1,0 +1,71 @@
+.cards-first-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+
+.cards-second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 570px;
+}
+
+.card.bigger {
+  width: 670px;
+}
+
+.card.vertical {
+  width: 470px;
+}
+
+.cards-second-row-column > * + * {
+  margin-top: 30px;
+}
+
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 30px;
+  background-color: #a6a6a6;
+  color: #fff;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card.extreme-color .card-title-wrapper {
+  background-color: #c1b19b;
+}
+
+.card.adventure-color .card-title-wrapper {
+  background-color: #66b0be;
+}
+
+.card.exotic-color .card-title-wrapper {
+  background-color: #27695e;
+}
+
+.card.hiking-color .card-title-wrapper {
+  background-color: #876f56;
+}
+
+.card-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.card-link-wrapper {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-link-wrapper:hover {
+  opacity: 0.9;
+}
